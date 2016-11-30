@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React projects</title>
+    <style>
+    *{box-sizing:border-box}body,html{margin:0;padding:0;overflow-x:hidden}body{font-family:'Lato','Arial',sans-serif;background:#000;color:#eee}::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-track{background:#333}::-webkit-scrollbar-thumb{background:#1ea6f9}.c-hamburger,nav{position:fixed;top:0;left:0}nav{background:#111;height:100vh;width:240px;z-index:9}nav ul{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);list-style-type:none;margin:0;padding:10px;text-align:center;font-size:15px}a,nav ul li a{text-decoration:none;font-weight:700}nav ul li a{display:inline-block;padding:5px;border-bottom:1px solid transparent;color:#999}nav ul li a.active{color:#1ea6f9!important}nav ul li.separator{display:block;width:100%;height:1px;margin:10px 0;background:#333}.c-hamburger{z-index:999;display:none;overflow:hidden;margin:0;padding:0;width:64px;height:64px;font-size:0;text-indent:-9999px;appearance:none;box-shadow:none;border-radius:none;border:none}.c-hamburger span{display:block;position:absolute;top:29px;left:14px;right:14px;height:6px;background:#fff}.c-hamburger span::after,.c-hamburger span::before{position:absolute;display:block;left:0;width:100%;height:6px;background-color:#fff;content:""}.c-hamburger span::before{top:-10px}.c-hamburger span::after{bottom:-10px}.c-hamburger--htx{background-color:#1ea6f9}.container-wrap{background:#333;display:flex;justify-content:center;flex-direction:column;align-items:center;margin-left:240px;min-height:100vh;min-width:500px;padding:5%;width:calc(100% - 240px)}.container{width:500px}.loader{text-align:center;margin:0 auto;display:none}.loader img{width:64px;height:auto}a{color:#1ea6f9}@media (max-width:740px){.c-hamburger{display:block}nav{position:fixed;top:0;left:-240px}.container-wrap{position:absolute;top:0;left:0;margin:0;width:100%;min-width:auto}.container{width:90%}}
+    </style>
+  </head>
+  <body>
+    <button id="mobile-btn" class="c-hamburger">
+      <span>toggle menu</span>
+    </button>
+    <nav>
+      <ul>
+        <li><a href="index.php" class="ajaxer">Home</a></li>
+        <li><a href="about.php" class="ajaxer">About me</a></li>
+        <li class="separator"></li>
+        <li><a href="clickity.php" class="ajaxer">Clickity</a></li>
+        <li><a href="chat.php" class="ajaxer">Chat</a></li>
+        <li><a href="github.php" class="ajaxer">Accounts</a></li>
+      </ul>
+    </nav>
+    <div class="container-wrap">
+      <div id="page"></div>
+    </div>
+
+    <!-- Scriptkiddo -->
+    <script src="//code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script src="js/rx.all.js" charset="utf-8"></script>
+    <script src="js/utils.js" charset="utf-8"></script>
+  </body>
+</html>
